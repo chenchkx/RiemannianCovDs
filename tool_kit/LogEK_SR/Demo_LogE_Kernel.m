@@ -4,15 +4,7 @@
 %
 % Peihua Li,  Qilong Wang, Wangmeng Zuo, and Lei Zhang. Log-Euclidean Kernels for Sparse 
 % Representation and Dictionary Learning. IEEE Int. Conf. on Computer Vision (ICCV), 2013.
-% 
-% Please cite the paper above if you use the code:
-%
-% For questions,  please conact:  Qilong Wang  (Email:  wangqilong.415@163.com), 
-%                                               Peihua  Li (Email: peihuali at dlut dot edu dot cn) 
-%
-% The software is provided ''as is'' and without warranty of any kind,
-% experess, implied or otherwise, including without limitation, any
-% warranty of merchantability or fitness for a particular purpose.
+
 
 clear all;
 clc;

@@ -1,21 +1,11 @@
 function accuracy = SVMforClassification(traindata,testdata,exprs)
 
-% SVMforClassification makes decision of label by using linear SVM 
-%
-% For  theoretical and technical details, please refer to the following paper:
-%
-% Qilong Wang, Peihua Li, Wangmeng Zuo, and Lei Zhang. RAID-G: Robust Estimation of 
+% this method is implemented by Qilong Wang [1] using SVM toolkit[2]:
+% [1] Qilong Wang, Peihua Li, Wangmeng Zuo, and Lei Zhang. RAID-G: Robust Estimation of 
 % Approximate Infinite Dimensional Gaussian with Application to Material Recognition. 
 % IEEE Conference on Computer Vision and Pattern Recognition Pattern Recognition (CVPR), 2016.
-% 
-% Please cite the paper above if you use the code:
-%
-% For questions,  please conact:  Qilong Wang  (Email:  qlwang at mail dot dlut dot edu dot cn), 
-%                                               Peihua  Li (Email: peihuali at dlut dot edu dot cn) 
-%
-% The software is provided ''as is'' and without warranty of any kind,
-% experess, implied or otherwise, including without limitation, any
-% warranty of merchantability or fitness for a particular purpose.
+% [2] Chih-Chung Chang and Chih-Jen Lin. Libsvm: a library for support vector machines. ACM transactions on intelligent systems and technology
+% (TIST), 2(3):27, 2011.
 
 classnum = exprs.num_Class;
 trainlabel = exprs.label_Train';

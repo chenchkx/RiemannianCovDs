@@ -1,3 +1,4 @@
+% the code from: https://github.com/oryair/ParallelTransportSPDManifold
 function M = RiemannianMean(tC)
 
 Np = size(tC, 3);

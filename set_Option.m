@@ -37,7 +37,7 @@ function option = set_Option(name,type_F,type_C)
             option.label_Probe = reshape(ones(option.num_Probe,option.num_Class)*diag([1:option.num_Class]),[1,option.num_Class*option.num_Probe]);
                                                                                 % label of probe sample
             option.type_Image = '.png';                                         % suffix of images                                                                                           
-            option.resized_Row = 265;                                           % row size of image
+            option.resized_Row = 256;                                           % row size of image
             option.resized_Col = 256;                                           % column size of image
             option.block_Row = 64;                                              % row size of block
             option.block_Col = 64;                                              % column size of block

@@ -171,8 +171,8 @@ function option = set_Option(name,type_F,type_C)
             option.cnn_Model = 'imagenet-vgg-verydeep-16.mat';
             option.num_Layers = 4;
             option.type_Gauss = 'DE';                                
-            option.type_Dataset = 1;  % if equal 1, means thats dataset vieds as video instead of image set 
-            option.length_Tem = 60;  % when option.type_Dataset == 1; length of temporals
+            option.type_Dataset = 1;  % if equal 1, means that dataset viewed as video instead of image set 
+            option.length_Tem = 80;  % when option.type_Dataset == 1; length of temporals
             option.latentDim_PLS = option.num_Class + 1;
             option.type_Norm_RLDV = 's';  
     end

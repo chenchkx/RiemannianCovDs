@@ -1,6 +1,9 @@
 %% set option for deifferent dataset
 % Author: Kai-Xuan Chen
 % Date:2018.12.11
+%% set option for deifferent dataset
+% Author: Kai-Xuan Chen
+% Date:2018.12.11
 function option = set_Option(name,type_F,type_C)
     % add paths
     addpath('tool_Mat');
@@ -30,7 +33,7 @@ function option = set_Option(name,type_F,type_C)
             option.num_Ite = 100;                                               % number of experiment iterations 
             option.num_Class = 8;                                               % number of categories
             option.num_Sample = 10;                                             % number of sample in each class
-            option.num_Gallery = 2;                                             % number of gallery sample
+            option.num_Gallery = 5;                                             % number of gallery sample
             option.num_Probe = option.num_Sample - option.num_Gallery;          % number of probe sample
             option.label_Gallery = reshape(ones(option.num_Gallery,option.num_Class)*diag([1:option.num_Class]),[1,option.num_Class*option.num_Gallery]);
                                                                                 % label of gallery sample
@@ -39,17 +42,17 @@ function option = set_Option(name,type_F,type_C)
             option.type_Image = '.png';                                         % suffix of images                                                                                           
             option.resized_Row = 256;                                           % row size of image
             option.resized_Col = 256;                                           % column size of image
-            option.block_Row = 64;                                              % row size of block
-            option.block_Col = 64;                                              % column size of block
+            option.block_Row = 32;                                              % row size of block
+            option.block_Col = 32;                                              % column size of block
             option.block_Depth = 1;
-            option.step_Row = 32;                                               % row step of block
-            option.step_Col = 32;                                               % column step of block    
+            option.step_Row = 28;                                               % row step of block
+            option.step_Col = 28;                                               % column step of block    
             option.step_Temporal = 1; 
             option.pre_Set = '';                                                % prefix string of each image set  
             option.pre_Class = '';                                              % prefic string of each class
             option.LogEK_N = 1;                                                 % paramter for LogEKSR
-            option.alpha_Gauss = 5;                                             % paramter for 'DE' RLDV
-            option.beta_Gauss = 0.1;                                            % paramter for Gaussian embedding          
+            option.alpha_Gauss = 0.9;                                           % paramter for 'DE' RLDV
+            option.beta_Gauss = 0.6;                                            % paramter for Gaussian embedding          
             option.min_EigCov = 1e-9;                                           % min_Value 
             option.min_EigGau = 1e-9;                  
             option.min_EigRieCovDs = 1e-9;
@@ -86,8 +89,8 @@ function option = set_Option(name,type_F,type_C)
             option.pre_Set = '';
             option.pre_Class = '';    
             option.LogEK_N = 1;    
-            option.alpha_Gauss = 0.1;
-            option.beta_Gauss = 0.3;                                         
+            option.alpha_Gauss = 1;
+            option.beta_Gauss = 0.4;                                         
             option.min_EigCov = 1e-9;                                          
             option.min_EigGau = 1e-9;                  
             option.min_EigRieCovDs = 1e-9;
@@ -124,8 +127,8 @@ function option = set_Option(name,type_F,type_C)
             option.pre_Set = 's';
             option.pre_Class = '';    
             option.LogEK_N = 1;    
-            option.alpha_Gauss = 0.3;
-            option.beta_Gauss = 0.3;                                          
+            option.alpha_Gauss = 0.2;
+            option.beta_Gauss = 0.7;                                          
             option.min_EigCov = 1e-9;                                          
             option.min_EigGau = 1e-9;                   
             option.min_EigRieCovDs = 1e-9;
@@ -155,14 +158,14 @@ function option = set_Option(name,type_F,type_C)
             option.resized_Col = 320;
             option.block_Row = 60;
             option.block_Col = 80;
-            option.block_Depth = 0;  % if equal 0, that means computed by 'option.type_Dataset' abd ' option.length_Tem '
-            option.step_Row = 30;
-            option.step_Col = 40;       
-            option.step_Temporal =0;                      
+            option.block_Depth = 60;  % if equal 0, that means computed by 'option.type_Dataset' abd ' option.length_Tem '
+            option.step_Row = 20;
+            option.step_Col = 30;       
+            option.step_Temporal = 60;                      
             option.pre_Set = 's';
             option.pre_Class = 'c';    
             option.LogEK_N = 1;   
-            option.alpha_Gauss = 0.1;
+            option.alpha_Gauss = 0.3;
             option.beta_Gauss = 0.9;                                                                                  
             option.min_EigCov = 1e-9;                                          
             option.min_EigGau = 1e-9;                  
@@ -171,8 +174,8 @@ function option = set_Option(name,type_F,type_C)
             option.cnn_Model = 'imagenet-vgg-verydeep-16.mat';
             option.num_Layers = 4;
             option.type_Gauss = 'DE';                                
-            option.type_Dataset = 1;  % if equal 1, means that dataset viewed as video instead of image set 
-            option.length_Tem = 80;  % when option.type_Dataset == 1; length of temporals
+            option.type_Dataset = 1;  % if equal 1, means thats dataset vieds as video instead of image set 
+            option.length_Tem = 60;  % when option.type_Dataset == 1; length of temporals
             option.latentDim_PLS = option.num_Class + 1;
             option.type_Norm_RLDV = 's';  
     end

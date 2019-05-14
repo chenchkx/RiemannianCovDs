@@ -62,7 +62,7 @@ function [num_Each_Matrix,time_Matrix] = gen_RCovDs(option)
                 
                 tic;
                 rie_CovDs = gen_RieCovDs_GausstypeAndRiemetric(descriptor_Cell,block_Num,option);
-                rie_CovDs = rie_CovDs/length(descriptor_Cell);
+                rie_CovDs = rie_CovDs/(length(descriptor_Cell) - 1);
                 clear('descriptor_Cell');
                 time_Matrix(readed_Class_th,readed_Set_th) = toc;
                 spd_RCovDs = rie_CovDs;

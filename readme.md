@@ -1,5 +1,5 @@
 
-Riemannian covariance descriptors(RieCovDs) for describing image sets.  
+Riemannian covariance descriptors(RieCovDs) via covariance computation on the manifold of Gaussians for image set coding.  
 Written by Kai-Xuan Chen (e-mail: kaixuan_chen_jsh@163.com)  
 
 

@@ -9,5 +9,6 @@ Please run 'read_ETH.m' to generate RieCovDs. Then run 'run_ETH_NNMethods.m' and
 
 
 Please cite the following paper (more theoretical and technical details) if your are using this code:
-
+```
 Kai-Xuan Chen, Jie-Yi Ren, Xiao-Jun Wu*, Josef Kittler. Covariance Descriptors on a Gaussian Manifold and their Application to Image Set Classification[J]. Pattern Recognition, 2020.
+```

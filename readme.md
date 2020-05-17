@@ -5,7 +5,7 @@ Written by Kai-Xuan Chen (e-mail: kaixuan_chen_jsh@163.com)
 
 The ETH-80 dataset is needed to be downloaded(https://github.com/Kai-Xuan/ETH-80/),  
 and put 8 filefolders(visual image sets from 8 different categories) into filefolder '.\ETH-80\'.  
-Please run 'read_ETH.m' to generate CSPD matrices. Then run 'run_ETH_NNMethods.m' and 'run_ETH_DisMethods.m' for image set classification.  
+Please run 'read_ETH.m' to generate RieCovDs. Then run 'run_ETH_NNMethods.m' and 'run_ETH_DisMethods.m' for image set classification.  
 
 
 Please cite the following paper (more theoretical and technical details) if your are using this code:

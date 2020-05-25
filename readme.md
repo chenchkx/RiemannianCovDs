@@ -10,10 +10,11 @@ Please run 'read_ETH.m' to generate RieCovDs. Then run 'run_ETH_NNMethods.m' and
 
 Please cite the following paper (more theoretical and technical details) if your are using this code:
 ```
-@article{chen2020riecovds,
+@article{chen2020covariance,
   title={Covariance Descriptors on a Gaussian Manifold and their Application to Image Set Classification},
   author={Chen, Kai-Xuan and Ren, Jie-Yi and Wu, Xiao-Jun and Kittler, Josef},
   journal={Pattern Recognition},
+  pages={107463},
   year={2020},
   publisher={Elsevier}
 }

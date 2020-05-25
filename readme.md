@@ -10,5 +10,16 @@ Please run 'read_ETH.m' to generate RieCovDs. Then run 'run_ETH_NNMethods.m' and
 
 Please cite the following paper (more theoretical and technical details) if your are using this code:
 ```
-Kai-Xuan Chen, Jie-Yi Ren, Xiao-Jun Wu*, Josef Kittler. Covariance Descriptors on a Gaussian Manifold and their Application to Image Set Classification[J]. Pattern Recognition, 2020.
+@article{chen2020riecovds,
+  title={Covariance Descriptors on a Gaussian Manifold and their Application to Image Set Classification},
+  author={Chen, Kai-Xuan and Ren, Jie-Yi and Wu, Xiao-Jun and Kittler, Josef},
+  journal={Pattern Recognition},
+  year={2020},
+  publisher={Elsevier}
+}
 ```
+
+
+For more experiment, you can test on Virus dataset (https://github.com/Kai-Xuan/Virus/) 
+
+

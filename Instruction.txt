@@ -1,4 +1,0 @@
-1) SIFT: Gray
-2) VGG: RGB
-3) Local: Gray/RGB
-     

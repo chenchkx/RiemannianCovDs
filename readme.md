@@ -8,8 +8,8 @@ and put 8 filefolders(visual image sets from 8 different categories) into filefo
 Please run 'read_ETH.m' to generate RieCovDs. Then run 'run_ETH_NNMethods.m' and 'run_ETH_DisMethods.m' for image set classification.  
 
 
-If you find this repository useful for your research, Please cite the following paper:
-BibTex :
+If you find this repository useful for your research, Please cite the following paper:  
+BibTex :  
 ```
 @article{chen2020covariance,
   title={Covariance Descriptors on a Gaussian Manifold and their Application to Image Set Classification},

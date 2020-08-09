@@ -25,8 +25,8 @@ BibTex :
 For more experiment, you can test on Virus dataset (https://github.com/Kai-Xuan/Virus/) 
 
 For more technical details.
-1. Distances on the SPD manifold: https://github.com/Kai-Xuan/MyNote/tree/master/ML/SPD-Metrics/
-2. Means on the SPD manifold: https://github.com/Kai-Xuan/MyNote/tree/master/ML/SPD-Means/
-3. Local Difference Vectors on the SPD manifold: https://github.com/Kai-Xuan/MyNote/tree/master/ML/SPD-LDV/
+1. Distances on the SPD manifold: https://github.com/Kai-Xuan/SPD-OPERATIONS/tree/master/SPD-Metrics/
+2. Means on the SPD manifold: https://github.com/Kai-Xuan/SPD-OPERATIONS/tree/master/SPD-Means/
+3. Local Difference Vectors on the SPD manifold: https://github.com/Kai-Xuan/SPD-OPERATIONS/tree/master/SPD-LDV/
 
 

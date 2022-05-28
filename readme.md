@@ -1,6 +1,6 @@
 
 Riemannian covariance descriptors(RieCovDs) via covariance computation on the manifold of Gaussians for image set coding. 
-Written by Kai-Xuan Chen (e-mail: kaixuan_chen_jsh@163.com)  
+Written by Kai-Xuan Chen (e-mail: chenkx.jsh@aliyun.com,  chenkx@zju.edu.cn)  
 
 
 The ETH-80 dataset is needed to be downloaded(https://github.com/Kai-Xuan/ETH-80/),  
